@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Execício Cálculo de IMC</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/exCalcImccss.css"/>
+		<script src="../js/exCalcImcjs.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id= "formulario">
+				<form>
+					<fieldset>
+						<legend>Execício Cálculo de IMC</legend>
+						<div id="msgErro" style="color:red"></div> <br/>
+						<p>
+							<label for="nome">NOME:</label> <br/>
+							<input type="text" name="nome" id="nome"/>
+						</p>
+						<p>
+							<select name="idade" id="idade">
+								<option value="selecione">SELECIONE A IDADE</option>
+								<option value="10-20">10 à 20<option>
+								<option value="20-30">20 à 30<option>
+								<option value="30-40">30 à 40<option>
+								<option value="40-50">40 à 50<option>
+							</select>
+
+						</p>
+						<p>
+							<label for="altura">ALTURA:</label> <br/>
+							<input type="text" name="altura" id="altura" />
+						</p>
+						<p>
+							<label for="peso">PESO:</label> <br/>
+							<input type="text" name="peso" id="peso" />
+						</p>
+						<p>
+							<label for="sexo">SEXO:</label> <br/>
+							<input type="radio" name="sexo" value="masculino" />
+							<label for="masculino">MASC</label> 
+							<input type="radio" name="sexo" value="feminino" />
+							<label for="feminino">FEM</label>
+						</p>
+						<p>
+							<a href="#" onclick="calcular()" class="botao">
+							CALCULAR IMC
+							</a>
+							<br/>
+							<a href="#" onclick="window.location.reload()" class="botao">
+							LIMPAR
+							</a>
+						</p>
+					</fieldset>
+				</form>
+			</div>
+			<div id="resultado"style="display: none;">
+				<div id="img">
+					<img id="imagem" src="../MEDIA/fatMan2.png" />
+				</div>
+				<div id="descricao">
+				 	Nome: <span id="exibeNome"></span>
+				 	<br/>
+				 	Faixa Etária: <span id="exibeIdade"></span>
+				 	<br/>
+				 	Sexo: <span id="exibeSexo"></span>
+				 	<br/>
+				 	Peso: <span id="exibePeso"></span>
+				 	<br/>
+				 	Altura: <span id="exibeAltura"></span>
+				 	<br/>
+				 	Resultado IMC: <span id="exibeResultadoIMC"></span>
+				 	<br/>
+				 	Resultado Descrição: <span id="exibeResultadoDescricao"></span>
+				</div>
+			</div>
+			<div id="tabela" style="display: block;">
+				<img src="../MEDIA/tabela-imc.png"  />
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+

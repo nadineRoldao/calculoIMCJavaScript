@@ -1,0 +1,69 @@
+div{
+	float: left;
+}
+
+#formulario{
+	margin-top: 40px;
+	margin-left: 60px;
+	width: 300px;
+	height: 487px;
+	margin-bottom: 50px;
+}
+fieldset{
+	width: 270px;
+	height: 487px;
+	background: #63B8FF;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#container{
+	background: gray;
+	width: 1500px;
+	height: 600px;
+	margin-top: 200px;
+	margin-left: 190px;
+	background: #FFF68F;
+
+}
+img{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+#descricao{
+	background: #AB82FF;
+	margin-top: 50px;
+	width:790px;
+	height: 487px;
+	margin-left: 20px;
+	font-family: Baskerville Old Face;
+	font-weight: bold;
+	font-size: 50px;
+}
+.botao{
+	display: block;
+  width: 230px;
+  background: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ span{
+ 	color: #8B1A1A;
+ 	font-size: 45px;
+ }
+ #tabela{
+ 	margin-left: 150px;
+ }
+
+ #imagem{
+ 	width: 230px;
+ 	height: 487px;
+ }
+
+
